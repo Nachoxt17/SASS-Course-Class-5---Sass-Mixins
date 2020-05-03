@@ -1,0 +1,19 @@
+@mixin square( $bgColor, $width, $height, $mt, $padd:20px){
+    background-color: $bgColor;
+    width: $width;
+    height: $height;
+    margin-top: $mt;
+    padding: $padd;
+}
+
+.square-1 {
+    @include square(yellow, 150px, 150px, 5px, 10px);
+}
+
+.square-2 {
+    @include square(violet, 200px, 200px, 10px, 15px);
+}
+
+.square-3 {
+    @include square(cyan, 270px, 270px, 20px, 27px);
+}

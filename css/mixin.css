@@ -1,0 +1,22 @@
+.square-1 {
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+  margin-top: 5px;
+  padding: 10px; }
+
+.square-2 {
+  background-color: violet;
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+  padding: 15px; }
+
+.square-3 {
+  background-color: cyan;
+  width: 270px;
+  height: 270px;
+  margin-top: 20px;
+  padding: 27px; }
+
+/*# sourceMappingURL=mixin.css.map */

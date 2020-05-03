@@ -1,0 +1,14 @@
+/*+-To apply and save the changes, we open the VS Code Terminal and enter this Code:_  sass --watch sass:css
+        And then Save.*/
+body{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+@import "variables";
+@import "mixin";
+@import "footer";
+
+.title {
+    background-color: $aquaColor;
+}
